@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Assessment</title>
+  </head>
+  <body>
+    <h1>TEXT</h1>
+    <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>
+      <blockquote>
+        <em><strong>Integer</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </em>
+      </blockquote>
+    </p>
+
+    <p><strong>Vestibulum</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+    <h1>TABLE</h1>
+
+    <table>
+      <caption>Scores by quarter</caption>
+      <thead>
+        <tr>
+          <th rowspan="2">Team Name</th>
+          <th colspan="2">First Half</th>
+          <th colspan="2">Second Half</th>
+          <th rowspan="2">Final</th>
+        </tr>
+        <tr>
+          <th>Q1</th>
+          <th>Q2</th>
+          <th>Q3</th>
+          <th>Q4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Denver</td>
+          <td>7</td>
+          <td>3</td>
+          <td>0</td>
+          <td>7</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td>Chicago</td>
+          <td>3</td>
+          <td>3</td>
+          <td>0</td>
+          <td>7</td>
+          <td>15</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>7</th>
+          <th>9</th>
+          <th>3</th>
+          <th>13</th>
+          <th>32</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h1>LIST</h1>
+    <ul>
+      <li><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos Logo" style="width:80px;height:80px"><br><a href="https://www.denverbroncos.com/" target="_blank">Denver Broncos</a>
+        <ul>
+          <li>Coach: Gary Kubiak
+          <li>QB
+          <ol>
+            <li>Brock Osweiler
+            <li>Trevor Siemian
+            <li>Peyton Manning (injured)
+          </ol>
+        </ul>
+    </ul>
+      <ul>
+        <li><img src="https://a.espncdn.com/i/teamlogos/nfl/500/chi.png" alt="Chicago Bears Logo" style="width:80px;height:80px"><br><a href="https://www.chicagobears.com/" target="_blank">Chicago Bears</a>
+          <ul>
+            <li>Coach: Gary Kubiak
+            <li>QB
+            <ol>
+              <li>Jay Cutler
+              <li>David Foles
+            </ol>
+          </ul>
+      </ul>
+
+    <h1>FORM</h1>
+    <p>
+      <form>
+        First: <input type="text" name="firstname" value="Bob">
+        Last: <input type="text" name="lastname" value="Dobbs">
+        <br>
+        Favorite Sport:
+        <br>
+        <select  name="Sports" id="sports">
+          <option value="football">Football</option>
+          <option value="soccer">Soccer</option>
+          <option value="baseball">Baseball</option>
+          <option value="basketball">Basketball</option>
+          <option value="hockey">Hockey</option>
+        </select>
+        <br>
+        I have:
+          <input type="checkbox" name="attended" value="attended">
+          <label for="attended">Attended</label>
+          <input type="checkbox" name="played" value="played">
+          <label for="played">Played</label>
+          <input type="checkbox" name="coached" value="coached">
+          <label for="coached">Coached</label>
+          <input type="checkbox" name="bet on" value="bet on">
+          <label for="attended">Bet on</label>
+        <br>
+        this sport.
+        <br>
+        For this sport I prefer the:
+
+          <input type="radio" id="amateur" name="prefferedSport" value="amateur">
+          <label for="amateur">Amateur</label>
+          <input type="radio" id="college" name="prefferedSport" value="college">
+          <label for="college">College</label>
+          <input type="radio" id="professional" name="prefferedSport" value="professional">
+          <label for="professional">Professional</label>
+          <br>
+          <input type="submit" id="submit" name="submit" value="Submit Query">
+
+        </select>
+      </p>
+    </form>
+  </body>
+</html>
