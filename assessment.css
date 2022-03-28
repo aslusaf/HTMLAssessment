@@ -79,8 +79,13 @@ The checkbox list should not be bulleted. */
 
 /* Stretch Goals
 
-Have each team's primary quarterback display in bold. */
+1. Have each team's primary quarterback display in bold. */
 
 #teamRoster ol > li:first-child {
   font-weight: bold;
+}
+
+/* 2. Use CSS to give the table rows alternating background colors. */
+table caption, tr:nth-child(even){
+  background-color: lightgray;
 }
