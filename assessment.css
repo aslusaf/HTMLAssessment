@@ -76,3 +76,11 @@ The checkbox list should not be bulleted. */
 #checkbox-grid li{
   list-style: none;
 }
+
+/* Stretch Goals
+
+Have each team's primary quarterback display in bold. */
+
+#teamRoster ol > li:first-child {
+  font-weight: bold;
+}
